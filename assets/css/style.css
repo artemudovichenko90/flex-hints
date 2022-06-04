@@ -58,7 +58,7 @@
 
 .flex-container {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .flex-element {
