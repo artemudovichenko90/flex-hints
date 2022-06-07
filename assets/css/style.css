@@ -8,8 +8,9 @@
 }
 
 .flex-section {
-  padding: 10px;
   min-width: 576px;
+  padding: 10px;
+
   background-color: #f3f1f1;
 }
 
@@ -22,37 +23,40 @@
 }
 
 .title {
-  font-weight: bold;
-  font-size: 2rem;
   font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .btn {
-  border: 3px solid #4cc5f3;
-  text-transform: uppercase;
   padding: 1rem;
+
+  text-transform: uppercase;
+
+  color: black;
+  border: 3px solid #4cc5f3;
+  background-color: white;
+
   font-weight: bold;
 }
 
 .btn-active {
-  background-color: #4cc5f3;
   color: white;
+  background-color: #4cc5f3;
 }
 
-.btn-non-active {
-  background-color: white;
-  color: black;
-}
 
 .outer-border {
   margin-top: 20px;
-  background-color: white;
   padding: 5px;
+
   border: 3px solid #4cc5f3;
+  background-color: white;
 }
 
 .inner-border {
   min-height: 200px;
+
   border: 1px dotted black;
 }
 
@@ -62,16 +66,20 @@
 }
 
 .flex-element {
-  background-color: rgb(152 223 251);
   display: flex;
   align-items: center;
   justify-content: center;
+
   margin: 1px;
+
+  background-color: rgb(152 223 251);
 }
 
 .content {
-  color: rgb(39 118 149);
   padding: 1rem;
-  font-size: 2rem;
+
+  color: rgb(39 118 149);
+
   font-family: sans-serif;
+  font-size: 2rem;
 }
